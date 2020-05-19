@@ -1,18 +1,33 @@
 .header {
+  padding: 1rem 0 3rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px 0;
+}
+
+.heading {
+  text-decoration: none;
+  color: black;
 }
 
 .list {
   display: flex;
   flex-direction: row;
-  list-style: none;
+  list-style-type: none;
   margin: 0;
 }
 
 .link {
   text-decoration: none;
-  padding: 0 20px;
+  margin-right: 1.3rem;
+  color: black;
+  opacity: 0.5;
+}
+
+.link:hover {
+  opacity: 1;
+}
+
+.active-link {
+  opacity: 1;
 }
