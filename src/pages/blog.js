@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import Layout from '../components/Layout'
+import Head from '../components/Head'
 import styles from './blog.module.scss'
 
 const Blog = () => {
@@ -21,6 +22,7 @@ const Blog = () => {
 
   return (
     <Layout>
+      <Head title="Blog" />
       <h1>Insights</h1>
       <p>Is calling your blog posts "insights" pretentious?</p>
       <ul className={styles.posts}>
